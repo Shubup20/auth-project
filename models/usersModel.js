@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const userScchema = mongoose.Schema(
+const userSchema = mongoose.Schema(
   {
     email: {
       type: String,
@@ -42,4 +42,4 @@ const userScchema = mongoose.Schema(
   }
 );
 
-module.exports = mongoose.model("User", userScchema);
+module.exports = mongoose.model("User", userSchema);
